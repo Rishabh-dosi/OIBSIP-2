@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.intro_head {
+    text-align: right;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    word-spacing: 0.3rem;
+}
+.intro {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.intro>img {
+    width: 500px;
+    height: 699px;
+    margin: 0;
+    background-color: black;
+    justify-self: center;
+}
+
+.intro_box {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    right: 4rem;
+    top: 42rem;
+}
+
+.biography {
+    padding-top: 3rem;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bio_head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.biography_content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: auto;
+    width: 90%;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: justify;
+    line-height: 2rem;
+}
+.i{
+    width: 600px;
+    height: 400px;
+}
+.image{
+    width: 100%;
+    height: auto;
+    animation: rotate 10s linear 0ms infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.famousChar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    padding: 3rem;
+}
+
+.boxA {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+
+}
+
+.boxA img {
+    width: auto;
+    height: 300px;
+    margin: auto;
+}
+
+.boxA p {
+    margin-left: 5rem;
+    width: 700px;
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+.boxB {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.boxB p{
+    width: 80%;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    order: 1;
+    margin-top: 2rem;
+}
+.boxB img{
+    width: 400px;
+    height: 400px;
+    order: 2;
+    margin: auto;
+}
+.facts{
+    width: 100%;
+    background-color: black;
+    color: white;
+    list-style: none;
+
+}
+.facts li{
+    width: 90%;
+    margin: auto;
+    list-style: decimal;
+    font-size: 2rem;
+}
+
+.knowMore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wikipedia{
+    align-content: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 47%;
+    margin-top: 1rem;
+    color: rgb(254, 254, 254);
+    font-size: 2rem;
+}
